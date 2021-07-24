@@ -89,6 +89,7 @@ class Profile extends React.Component {
                           className="mr-4"
                           color="info"
                           href="https://www.linkedin.com/in/don-bandy-jr-7a91a544/"
+                          target="_blank"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
@@ -98,6 +99,7 @@ class Profile extends React.Component {
                           className="float-right"
                           color="default"
                           href="mailto:bandydon@gmail.com"
+                          target="_blank"
                           onClick={e => e.preventDefault()}
                           size="sm"
                         >
@@ -115,10 +117,6 @@ class Profile extends React.Component {
                           <span className="heading">10</span>
                           <span className="description">Photos</span>
                         </div>
-                        {/* <div>
-                          <span className="heading">89</span>
-                          <span className="description">Comments</span>
-                        </div> */}
                       </div>
                     </Col>
                   </Row>
