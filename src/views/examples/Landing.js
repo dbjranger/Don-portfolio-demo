@@ -79,18 +79,16 @@ class Landing extends React.Component {
               <Container className="py-lg-md d-flex">
                 <div className="col px-0">
                   <Row>
-                    <Col lg="6">
+                    <Col lg="7">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        Developing Software Solutions{" "}
+                        <span>that improve the quality of life</span>
                       </h1>
                       <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
+                        Coding is a passion of mine and I enjoy solving challenges on a daily basis.
                       </p>
                       <div className="btn-wrapper">
-                        <Button
+                        {/* <Button
                           className="btn-icon mb-3 mb-sm-0"
                           color="info"
                           href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
@@ -111,7 +109,7 @@ class Landing extends React.Component {
                           <span className="btn-inner--text">
                             Download React
                           </span>
-                        </Button>
+                        </Button> */}
                       </div>
                     </Col>
                   </Row>
@@ -148,22 +146,21 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            Infamous Horned Beast
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Horned Beast demonstrates how props are passed down to child components and also 
+                            how state is set within a component. 
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              React
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              setState
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              this.props
                             </Badge>
                           </div>
                           <Button
@@ -184,22 +181,17 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            Pizza Pie
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            A quick mockup designed to show pixel perfect CSS.
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              Javascript
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
-                            </Badge>
-                            <Badge color="success" pill className="mr-1">
-                              success
+                              CSS
                             </Badge>
                           </div>
                           <Button
@@ -220,22 +212,21 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            Military Branch Selector
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                            Uses feedback from the user in the form of questions and based
+                            on the user's response will suggest the appropriate military branch. 
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              JavaScript
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              Ecommerce
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                              inStorage
                             </Badge>
                           </div>
                           <Button
@@ -271,9 +262,7 @@ class Landing extends React.Component {
                     </div>
                     <h3>Awesome features</h3>
                     <p>
-                      The kit comes with three pre-built pages to help you get
-                      started faster. You can change the text and images and
-                      you're good to go.
+                      The projects in my portfolio are all Javascript and React based
                     </p>
                     <ul className="list-unstyled mt-5">
                       <li className="py-2">
@@ -304,7 +293,7 @@ class Landing extends React.Component {
                             </Badge>
                           </div>
                           <div>
-                            <h6 className="mb-0">Amazing page examples</h6>
+                            <h6 className="mb-0">Handing down props to child components</h6>
                           </div>
                         </div>
                       </li>
@@ -320,7 +309,7 @@ class Landing extends React.Component {
                           </div>
                           <div>
                             <h6 className="mb-0">
-                              Super friendly support team
+                              Setting state within components
                             </h6>
                           </div>
                         </div>
@@ -334,7 +323,7 @@ class Landing extends React.Component {
           <section className="section bg-secondary">
             <Container>
               <Row className="row-grid align-items-center">
-                <Col md="6">
+                {/* <Col md="6">
                   <Card className="bg-default shadow border-0">
                     <CardImg
                       alt="..."
@@ -368,8 +357,8 @@ class Landing extends React.Component {
                       </p>
                     </blockquote>
                   </Card>
-                </Col>
-                <Col md="6">
+                </Col> */}
+                {/* <Col md="6">
                   <div className="pl-md-5">
                     <div className="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
                       <i className="ni ni-settings" />
@@ -398,12 +387,12 @@ class Landing extends React.Component {
                       A beautiful UI Kit for impactful websites
                     </a>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </Container>
           </section>
           <section className="section pb-0 bg-gradient-warning">
-            <Container>
+            {/* <Container>
               <Row className="row-grid align-items-center">
                 <Col className="order-lg-2 ml-lg-auto" md="6">
                   <div className="position-relative pl-md-5">
@@ -488,7 +477,7 @@ class Landing extends React.Component {
                   </Card>
                 </Col>
               </Row>
-            </Container>
+            </Container> */}
             {/* SVG separator */}
             <div className="separator separator-bottom separator-skew zindex-100">
               <svg
@@ -510,11 +499,9 @@ class Landing extends React.Component {
             <Container>
               <Row className="justify-content-center text-center mb-lg">
                 <Col lg="8">
-                  <h2 className="display-3">The amazing Team</h2>
+                  <h2 className="display-3">My Background</h2>
                   <p className="lead text-muted">
-                    According to the National Oceanic and Atmospheric
-                    Administration, Ted, Scambos, NSIDClead scentist, puts the
-                    potentially record maximum.
+                    I live in San Diego and I enjoy working with Javascript and React.  
                   </p>
                 </Col>
               </Row>
@@ -529,7 +516,7 @@ class Landing extends React.Component {
                     />
                     <div className="pt-4 text-center">
                       <h5 className="title">
-                        <span className="d-block mb-1">Ryan Tompson</span>
+                        <span className="d-block mb-1">Don Bandy Jr.</span>
                         <small className="h6 text-muted">Web Developer</small>
                       </h5>
                       <div className="mt-3">
@@ -561,7 +548,7 @@ class Landing extends React.Component {
                     </div>
                   </div>
                 </Col>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                {/* <Col className="mb-5 mb-lg-0" lg="3" md="6">
                   <div className="px-4">
                     <img
                       alt="..."
@@ -688,7 +675,7 @@ class Landing extends React.Component {
                       </div>
                     </div>
                   </div>
-                </Col>
+                </Col> */}
               </Row>
             </Container>
           </section>

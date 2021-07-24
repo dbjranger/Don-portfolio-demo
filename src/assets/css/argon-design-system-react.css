@@ -3499,7 +3499,7 @@ input[type="button"].btn-block {
   background-color: #fff;
   background-clip: border-box;
   border: 0.0625rem solid rgba(0, 0, 0, 0.05);
-  border-radius: 0.25rem; }
+  border-radius: 0.25rem;}
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -6381,7 +6381,7 @@ button.bg-darker:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important; }
+  padding-bottom: 3rem !important;}
 
 .pl-5,
 .px-5 {
