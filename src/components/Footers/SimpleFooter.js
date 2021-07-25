@@ -38,7 +38,7 @@ class SimpleFooter extends React.Component {
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  Thank you for your support!
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
                   Let's get in touch on any of these platforms.
@@ -106,16 +106,9 @@ class SimpleFooter extends React.Component {
             <hr />
             <Row className=" align-items-center justify-content-md-between">
               <Col md="6">
-                <div className=" copyright">
+                {/* <div className=" copyright">
                   © {new Date().getFullYear()}{" "}
-                  <a
-                    href="https://www.creative-tim.com?ref=adsr-footer"
-                    target="_blank"
-                  >
-                    Creative Tim
-                  </a>
-                  .
-                </div>
+                </div> */}
               </Col>
               <Col md="6">
                 <Nav className=" nav-footer justify-content-end">
@@ -124,7 +117,9 @@ class SimpleFooter extends React.Component {
                       href="https://www.creative-tim.com?ref=adsr-footer"
                       target="_blank"
                     >
-                      Creative Tim
+                      Don Bandy Jr.
+                      © {new Date().getFullYear()}{" "}
+                
                     </NavLink>
                   </NavItem>
                   <NavItem>
@@ -132,23 +127,6 @@ class SimpleFooter extends React.Component {
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
-                      About Us
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    >
-                      Blog
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md"
-                      target="_blank"
-                    >
-                      MIT License
                     </NavLink>
                   </NavItem>
                 </Nav>

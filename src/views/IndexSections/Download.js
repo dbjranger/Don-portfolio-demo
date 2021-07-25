@@ -26,7 +26,7 @@ class Download extends React.Component {
     return (
       <>
         <section className="section section-lg">
-          <Container>
+          {/* <Container>
             <Row className="row-grid justify-content-center">
               <Col className="text-center" lg="8">
                 <h2 className="display-3">
@@ -157,7 +157,7 @@ class Download extends React.Component {
                 </div>
               </Col>
             </Row>
-          </Container>
+          </Container> */}
         </section>
       </>
     );

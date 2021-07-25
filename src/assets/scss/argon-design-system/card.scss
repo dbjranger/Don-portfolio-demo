@@ -1,6 +1,7 @@
 
 .card {
   position: relative;
+//   margin-top: 350px;
 
   &.card-plain {
     background: transparent;
@@ -8,6 +9,8 @@
     border: none;
   }
 }
+
+
 
 .profile-page {
     .card-profile {

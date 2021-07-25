@@ -38,7 +38,7 @@ import {
   Col,
   UncontrolledTooltip
 } from "reactstrap";
-import reactWhite from "assets/img/brand/argon-react-white.png";
+import reactWhite from "assets/img/brand/Coding.jpg";
 import argonReact from "assets/img/brand/argon-react.png";
 
 class DemoNavbar extends React.Component {
@@ -158,19 +158,6 @@ class DemoNavbar extends React.Component {
                     </UncontrolledTooltip>
                   </NavItem>
                   <NavItem className="d-none d-lg-block ml-lg-4">
-                    {/* <Button
-                      className="btn-neutral btn-icon"
-                      color="default"
-                      href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-navbar"
-                      target="_blank"
-                    >
-                      <span className="btn-inner--icon">
-                        <i className="fa fa-cloud-download mr-2" />
-                      </span>
-                      <span className="nav-link-inner--text ml-1">
-                        Download
-                      </span>
-                    </Button> */}
                   </NavItem>
                 </Nav>
               </UncontrolledCollapse>
