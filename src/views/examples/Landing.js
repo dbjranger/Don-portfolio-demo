@@ -681,7 +681,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
           </section>
-          <section className="section section-lg pt-0">
+          {/* <section className="section section-lg pt-0">
             <Container>
               <Card className="bg-gradient-warning shadow-lg border-0">
                 <div className="p-5">
@@ -711,8 +711,8 @@ class Landing extends React.Component {
                 </div>
               </Card>
             </Container>
-          </section>
-          <section className="section section-lg bg-gradient-default">
+          </section> */}
+          {/* <section className="section section-lg bg-gradient-default">
             <Container className="pt-lg pb-300">
               <Row className="text-center justify-content-center">
                 <Col lg="10">
@@ -759,7 +759,7 @@ class Landing extends React.Component {
               </Row>
             </Container>
             {/* SVG separator */}
-            <div className="separator separator-bottom separator-skew zindex-100">
+            {/* <div className="separator separator-bottom separator-skew zindex-100">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 preserveAspectRatio="none"
@@ -774,7 +774,7 @@ class Landing extends React.Component {
                 />
               </svg>
             </div>
-          </section>
+          </section>  */}
           <section className="section section-lg pt-lg-0 section-contact-us">
             <Container>
               <Row className="justify-content-center mt--300">
