@@ -127,15 +127,6 @@ class SimpleFooter extends React.Component {
                       href="https://www.creative-tim.com/presentation?ref=adsr-footer"
                       target="_blank"
                     >
-                      {/* About Us
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      href="http://blog.creative-tim.com?ref=adsr-footer"
-                      target="_blank"
-                    > */}
-                      {/* Blog */}
                     </NavLink>
                   </NavItem>
                 </Nav>
