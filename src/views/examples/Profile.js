@@ -147,7 +147,7 @@ class Profile extends React.Component {
                           I'm passionate about leveraging technology so that people may improve their quality of life. 
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
-                          Show more
+                          {/* Show more */}
                         </a>
                       </Col>
                     </Row>

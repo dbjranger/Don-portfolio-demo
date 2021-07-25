@@ -506,7 +506,9 @@ class Landing extends React.Component {
                 </Col>
               </Row>
               <Row>
-                <Col className="mb-5 mb-lg-0" lg="3" md="6">
+                <Col className="d-flex justify-content-center">
+              
+
                   <div className="px-4">
                     <img
                       alt="..."
