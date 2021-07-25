@@ -40,6 +40,7 @@ import {
 } from "reactstrap";
 import reactWhite from "assets/img/brand/Coding.jpg";
 import argonReact from "assets/img/brand/argon-react.png";
+import coding from "assets/img/brand/Coding.jpg"
 
 class DemoNavbar extends React.Component {
   componentDidMount() {
@@ -96,7 +97,7 @@ class DemoNavbar extends React.Component {
                       <Link to="/">
                         <img
                           alt="..."
-                          src={argonReact}
+                          src={coding}
                         />
                       </Link>
                     </Col>
